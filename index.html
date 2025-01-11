@@ -1,91 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>My Portfolio Website by USing HTML5 & CSS3</title>
-  </head>
 
-  <body>
-    <!-- Nagivation Start-->
-    <header>
-      <nav class="navbar-container">
-        <!-- Navbar Logo -->
-        <div class="nav-logo">
-          <img src="" alt="Portfolio Logo" />
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio Website by USing HTML5 & CSS3</title>
+</head>
+
+<body>
+  <!-- Nagivation Start-->
+  <header>
+    <nav class="navbar-container">
+      <!-- Navbar Logo -->
+      <div class="nav-logo">
+        <img src="" alt="Portfolio Logo" />
+      </div>
+      <ul>
+        <!-- Navbar Itmes-->
+        <li><a href="#">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+      <div class="nav-social-items">
         <ul>
-          <!-- Navbar Itmes-->
-          <li><a href="#">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Contact</a></li>
+          <!-- Navbar Social Icons-->
+          <li>
+            <a href="">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </li>
         </ul>
-        <div class="nav-social-items">
-          <ul>
-            <!-- Navbar Social Icons-->
-            <li>
-              <a href="">
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- Navigation End-->
-    <!-- Hero Section Star-->
-    <section>
+      </div>
+    </nav>
+  </header>
+  <!-- Navigation End-->
+  <!-- Hero Section Star-->
+  <section>
+    <div class="container">
       <div>
-        <div>
-          <h2>Hi I'm Sensei Joen <strong>Front-End Developer</strong></h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
-            molestiae dolore rem saepe, eum nesciunt voluptas numquam eveniet
-            eligendi quia laborum cumque sunt quis doloremque ea dicta veritatis
-            omnis excepturi.
-          </p>
-          <button type="button">Read More</button>
-        </div>
-        <div>
-          <img
-            src="hero.png"
-            alt="This is Hero Section Image"
-            height="200px"
-            width="300px"
-          />
+        <h1>Hi, I'm Sensei Joen</h1>
+        <p>I'm a Junior Front-End Developer passionate about creating visually appealing and user-friendly websites.
+          Let's build something amazing together!</p>
+
+        <button type="button">Read More</button>
+      </div>
+      <div>
+        <img src="hero.png" alt="This is Hero Section Image" height="200px" width="300px" />
+      </div>
+    </div>
+  </section>
+  <!-- Hero Section Ending-->
+  <!-- About us Section Starting-->
+  <section>
+    <div>
+      <h2>About us</h2>
+      <p>
+        Welcome to our world of creativity and innovation! At Saylani Mass IT, we are passionate about crafting unique solutions that cater to your needs. With a team of dedicated professionals, we strive to deliver excellence in every project we undertake. Our mission is to transform ideas into reality, ensuring customer satisfaction and fostering lasting relationships. Join us on this exciting journey and discover the endless possibilities that await.
+      </p>
+      <button type="button">Contact Us</button>
+    </div>
+  </section>
+  <!-- About us Section Enidng -->
+   <!-- Services Section Starting-->
+    <section>
+      <div class="container">
+        <div > 
+          <h2>Our Services</h2>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Crafting responsive and visually appealing websites tailored to your needs.</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-paintbrush"></i>
+            <h3>UI/UX Design</h3>
+            <p>Designing intuitive and user-friendly interfaces that enhance user experience.</p>
+          </div>
+          <div>
+            <i class="fa-solid fa-mobile-alt"></i>
+            <h3>Responsive Design</h3>
+            <p>Improving your website's visibility and ranking on search engines to attract more visitors.</p>
+          </div>
         </div>
       </div>
     </section>
-    <!-- Hero Section Ending-->
-    <!-- About us Section Starting-->
-    <section>
-      <div>
-        <h2>About us</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
-          inventore nesciunt modi, aliquam nemo doloremque dolor et id
-          voluptatem ex natus, dolorem, vitae quidem ut eveniet asperiores.
-          Facilis, necessitatibus error!
-        </p>
-        <button type="button">Learn More</button>
+   <!-- Services Section Ending-->
+    <!-- Project Section Starting-->
+     <section>
+      <h2>My Projects</h2>
+      <div class="container">
+        <div>
+          <img src="./Restaurant.png" alt="My Restaurant Website Project Image">
+          <h3>Restaurant Website</h3>
+          <p>Fully Responsive Restaurant Website by Using HTML5 & CSS3</p>
+          <button type="button">view Project</button>
+        </div>
+        <div>
+          <img src="./E-Commerce.png" alt="My E-Commerce Storefront Website Project Iamge">
+          <h3>E-Commerce Storefront</h3>
+          <p>Fully Responsive E-Commerce Storefront by Using HTML5 & CSS3</p>
+          <button type="button">view Project</button>
+        </div>
+        <div>
+          <img src="./Blog.jpg" alt="My Blog Website Project Image          ">
+          <h3>Blog Website
+          </h3>
+          <p>Fully Responsive Blog Website by Using HTML5 & CSS3</p>
+          <button type="button">view Project</button>
+        </div>
+        <div>
+          <img src="./Event.jpg" alt="My Event Website Project Image">
+          <h3>Event Website</h3>
+          <p>Fully Responsive Event Website by Using HTML5 & CSS3</p>
+          <button type="button">view Project</button>
+        </div>
       </div>
-    </section>
-    <!-- About us Section Enidng -->
-  </body>
+     </section>
+     <!-- Project Section Stating-->
+      <!-- Skill Section Starting-->
+       <section>
+        <div>
+          <h2>My Skills</h2>
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML 5</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <span> CSS 3</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <span>Javascript</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-bootstrap"></i>
+            <span>Bootstrap</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-git"></i>
+            <span>Git</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-sass"></i>
+            <span>Sass</span>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <span>Figma</span>
+          </div>
+        </div>
+       </section>
+    <!-- Skill Section Ending-->
+     <!-- contact Us Section Starting-->
+      <section>
+        <div>
+          <h2>Contact Us</h2>
+          <p>We'd love to hear from you! Whether you have a question, feedback, or just want to chat, feel free to reach out. Our dedicated team is here to assist you. Get in touch through any of the following ways:</p>
+          <form action="" method="get">
+            <label for="">
+              Full Name:
+            </label>
+            <input type="text" name="User-name" id="" placeholder="Enter Your Full Name" required maxlength="20">
+            <label for="">E-mail:</label>
+            <input type="email" name="email" id="" required placeholder="Enter Your E-mail">
+            <label for="">Message:</label>
+            <textarea name="message" id="" placeholder="Write Message Here!" required>
+
+            </textarea>
+          </form>
+        </div>
+      </section>
+      <!-- Contact us Section Ending-->
+       <!-- Footer Starting-->
+        <footer>
+          <p>&copy;2025. All rights reserved.</p>
+        </footer>
+        <!-- Footer Ending-->
+</body>
+
 </html>
