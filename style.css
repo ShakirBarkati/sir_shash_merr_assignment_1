@@ -14,22 +14,80 @@ body {
     background-color: antiquewhite;
 }
 
+.container{
+    max-width: 1440px;
+    margin: 10px 20px;
+    padding: 10px 20px;
+}
+
+
+
 .navbar-container{
     display: flex;
     position: sticky;
     top: 0;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: space-evenly;
+    padding: 18PX;
+    background-color: #bfad92;
+    align-items: center;
 }
 
-.navbar-container ul{
+.nav-logo {
+    width: 140px;
+
+}
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #333;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.nav-social-items ul {
     display: flex;
     list-style: none;
     gap: 20px;
 }
 
-.navbar-container ul li a {
+.nav-social-items a {
     text-decoration: none;
-    color: #333;
-    font-size: small;
+    color: black;
+} 
+
+.nav-social-items ul li a i {
+    font-size: 1.5rem;
+}
+
+
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-grid{
+    display: flex;    
+}
+.service-card {
+    border: 1px solid bisque;
+    border-radius: 5px;
+    padding: 16px;
+    gap: 12px;
+    background-color: #bfad92;
+    align-items: center;
+}
+
+.service-card i {
+    font-size: 60px;
 }
