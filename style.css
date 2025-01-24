@@ -105,6 +105,10 @@ ul {
 .one_text {
     color: var(--light-color);
     font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-between;
 }
 
 .one_text h1 span {
@@ -163,8 +167,43 @@ ul {
     border-bottom-right-radius: 50px;
     background-color: transparent;
     border: 2px solid var(--main-color);
+}
 
+.btns {
+    display: flex;
+    gap: 1rem;
+}
 
+.btn {
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.btn_1 {
+    background-color: #2563eb;
+    border-radius: 1rem;
+    color: var(--light-color);
+    font-size: 1.2rem;
+    font-family: "Space Grotesk", serif;
+}
+
+.btn_2 {
+    font-size: 1.2rem;
+    color: var(--light-color);
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.icon {
+    box-shadow: 0 4px 10px 4px #2563eb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    font-size: 0.7rem;
 }
 
 /* Hero Section Styling End */
