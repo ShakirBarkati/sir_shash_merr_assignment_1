@@ -19,6 +19,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    font-family: "Space Grotesk", serif;
 }
 
 body {
@@ -28,6 +29,11 @@ body {
 
     height: 100vh;
     padding: 2rem 3rem;
+}
+
+a {
+    color: var(--light-color);
+    text-decoration: none;
 }
 
 main {
@@ -69,7 +75,7 @@ ul {
 }
 
 .logo h1 {
-    font-family: Arial, sans-serif;
+
     font-size: 24px;
     color: var(--dark-color);
     /* Dark text on green */
@@ -178,6 +184,7 @@ ul {
     padding: 1rem;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .btn_1 {
@@ -207,3 +214,203 @@ ul {
 }
 
 /* Hero Section Styling End */
+
+/* About Section Styling start */
+
+.about {
+    color: var(--light-color);
+}
+
+.about .about_one {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about .about_one h2 {
+    font-size: 2rem;
+}
+
+.about_heading {
+    text-decoration: underline;
+}
+
+.para_text p {
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.about_two img {
+    background: transparent;
+    width: 80%;
+    height: 80%;
+    height: auto;
+}
+
+.about_three img {
+    background: transparent;
+    width: 100%;
+    /* height: 80%; */
+    height: auto;
+}
+
+/* About Section Styling End */
+
+/* Project Section Styling Start */
+.project_two,
+.project_one {
+    width: 50%;
+}
+
+.project_one {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.project .project_one .project_one_top {
+    font-size: 1.8rem;
+    color: var(--light-color);
+}
+
+.project_one_bottom {
+    width: 100%;
+    height: 25rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.project_show_container {
+    display: flex;
+    gap: 1rem;
+    width: max-content;
+
+}
+
+/* Project Image Add Start */
+.bubble_game {
+    background: url("./img/bubbleGame.JPG") center center no-repeat;
+    background-size: cover;
+}
+
+.my_portfolio {
+    background: url("./img/porfolio.png") center center no-repeat;
+    background-size: cover;
+}
+
+
+/* Project Image Add End */
+
+.project_box {
+    flex-shrink: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 0.5rem;
+}
+
+.project_text {
+    width: 100%;
+    height: fit-content;
+    background-color: #1a1a2e;
+    opacity: 0.8;
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.project_name {
+    color: var(--light-color);
+    font-size: 1.2rem;
+
+}
+
+.project_desc {
+    color: var(--light-color);
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.project_desc span i {
+    border: 1px solid var(--light-color);
+    border-radius: 50%;
+    padding: 0.8rem;
+    color: var(--light-color);
+    cursor: pointer;
+}
+
+.project_desc span a {
+    text-decoration: none;
+}
+
+/* Project Scroll Bar Styling Start */
+
+.project_one_bottom::-webkit-scrollbar {
+    width: 8px;
+
+    height: 8px;
+
+}
+
+.project_one_bottom::-webkit-scrollbar-track {
+    background: #1a1a2e;
+
+    border-radius: 10px;
+
+}
+
+.project_one_bottom::-webkit-scrollbar-thumb {
+    background: var(--main-color);
+
+    border-radius: 10px;
+
+}
+
+/* Project Scroll Bar Styling End */
+
+.project_two {
+    color: var(--light-color);
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.project_two span {
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+/* Project Section Styling End */
+
+/* Scroll Bar Css Start*/
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--dark-color);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: var(--main-color);
+}
+
+/* Scroll Bar Css End*/
