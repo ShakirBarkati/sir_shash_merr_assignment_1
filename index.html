@@ -4,153 +4,79 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>
-            Portfolio of Muhammad Rehan Shakir Barkati - Frontend Developer
-        </title>
+        <!-- Icon CDN -->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
         <link rel="stylesheet" href="style.css" />
+        <title>Portfolio | Muhammad Rehan Shakir Barkati</title>
     </head>
 
     <body>
-        <main>
-            <!-- Nav Bar Start -->
-            <nav class="container">
-                <div class="one logo">
-                    <h1>MRSB</h1>
+        <main class="container">
+            <!-- navbar start -->
+            <nav class="navbar flex-center">
+                <div class="nav-left">
+                    <img src="./img/logo.png" alt="logo" />
                 </div>
-                <div class="two ul_items">
-                    <ul>
-                        <li>About</li>
-                        <li>Projects</li>
-                        <li class="contact">Contact</li>
+                <div class="nav-right flex-center">
+                    <ul class="flex-center">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Project</a></li>
+                        <li>
+                            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="ri-github-fill"></i></a>
+                        </li>
                     </ul>
                 </div>
-                <div class="three"></div>
             </nav>
-            <!-- Nav Bar End -->
-
-            <!-- Hero Section Start  -->
-            <div class="hero container">
-                <div class="one">
-                    <div class="one_text text">
-                        <h1>Designing <span>&</span> Deploying Things</h1>
-                        <div class="btns">
-                            <button class="btn btn_1">Get in Touch</button>
-                            <button class="btn btn_2">
-                                <i class="ri-circle-fill icon"></i>
-                                Available for Hire
-                            </button>
+            <!-- navbar end -->
+            <!-- Hero section start -->
+            <section class="hero container">
+                <div class="hero-left flex-center">
+                    <h1>
+                        Designing
+                        <span class="block"><span class="color-change">&</span> Deploying Things</span>
+                    </h1>
+                    <div class="btns">
+                        <button class="btn1 flex-center">Get in Touch</button>
+                        <div class="circle-box flex-center">
+                            <div class="circle-1"></div>
+                            <div class="circle-2"></div>
+                            <div class="circle-3"></div>
                         </div>
+                        <button class="btn2">Available for Hire</button>
                     </div>
                 </div>
-                <div class="two">
-                    <div class="hero_two_border_1"></div>
-                    <div class="border_img_container">
-                        <div class="hero_two_border_2"></div>
-                        <img src="./img/man_model.png" alt="" />
+                <div class="hero-right flex-center">
+                    <img src="./img/protfolio-model.png" alt="Portfolio Images" />
+                </div>
+            </section>
+            <!-- Hero section end -->
+
+            <!-- Introduction Section Start  -->
+
+            <section class="introduction container">
+                <div class="introduction-left">
+                    <div class="headings bg-glow">
+                        <h4>Introduction</h4>
+                        <h2>Hello!, I'm Muhammad Rehan Shakir Barkati <span>Designer</span></h2>
+                        <h2>based on UAE.</h2>
                     </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
+                        ligula eget odio eleifend pretium sed sed urna. Sed consequat
+                        elementum dui eu viverra.
+                    </p>
                 </div>
-                <div class="three"></div>
-            </div>
-            <!-- Hero Section End  -->
+                <div class="introduction-right img-container">
+                    <img src="./img/githubframe.png" alt="" class="img-1">
+                    <img src="./img/Cursor.png" alt="" class="img-2">
+                    <img src="./img/intro-right.png" alt="" class="img-3">
+                </div>
+            </section>
 
-            <!-- About Section Start -->
-            <div class="about container">
-                <div class="about_one one">
-                    <h4>Introduction</h4>
-                    <span class="about_text">
-                        <h2>
-                            Hello!, I'm Muhammad Rehan Shakir Barkati
-                            <span class="about_heading">Frontend Developer</span>
-                        </h2>
-                    </span>
-                    <span class="para_text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac
-                            ligula eget odio eleifend pretium sed sed urna. Sed consequat
-                            elementum dui eu viverra.
-                        </p>
-                    </span>
-                </div>
-                <div class="about_two two">
-                    <img src="./img/image_1.png" alt="" />
-                </div>
-                <div class="about_three three">
-                    <img src="./img/git_image_figma_2.png" alt="" />
-                </div>
-            </div>
-            <!-- About Section End -->
-
-            <!-- Project Section Start -->
-
-            <div class="container project">
-                <div class="project_one">
-                    <div class="project_one_top">
-                        <h3>Portfolio & Project</h3>
-                    </div>
-                    <div class="project_one_bottom">
-                        <div class="project_show_container">
-                            <div class="project_box bubble_game">
-                                <div class="project_text">
-                                    <h4 class="project_name">Bubble Game</h4>
-                                    <p class="project_desc">
-                                        A Bubble Game is a quick, fun game where you match and pop
-                                        bubbles of the same color to clear the screen.
-                                        <span>
-                                            <a href="https://bubble-game-wheat.vercel.app/" target="_blank"><i
-                                                    class="ri-arrow-right-up-fill"></i></a>
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="project_box my_portfolio">
-                                <div class="project_text">
-                                    <h4 class="project_name">Portfolio</h4>
-                                    <p class="project_desc">
-                                        A Portfolio Project is a personal website showcasing skills,
-                                        projects, and accomplishments, designed to impress potential
-                                        clients or employers.
-                                        <span>
-                                            <a href="https://my-portfolio-three-theta-74.vercel.app/" target="_blank"><i
-                                                    class="ri-arrow-right-up-fill"></i></a>
-                                        </span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="project_two">
-                    <a href="https://my-portfolio-three-theta-74.vercel.app/" target="_blank"><span>
-                            <h4>See all my portfolio</h4>
-                            <i class="ri-arrow-right-fill"></i>
-                        </span></a>
-                </div>
-            </div>
-
-            <!-- Project Section End -->
-
-            <!-- My goal Section Start-->
-
-            <div class="goal container">
-                <div class="goal_top">
-                    <h3>Clients & Companiesc i've work with</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus non unde quidem dolorum
-                        eligendi, fuga fugit ab quaerat quis, ipsa corrupti quia consectetur maxime deserunt
-                        necessitatibus accusantium exercitationem, sunt numquam.</p>
-                </div>
-                <div class="goal_bottom">
-                    <div class="logo_container">
-                        <img src="/img/open_ai.png" alt="open_ai">
-                        <img src="img/tokopedia.png" alt="">
-                        <img src="img/microsoft.png" alt="microsoft">
-                        <img class="google" src="img/Google.webp" alt="Google">
-                        <p>You're next?</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- My goal Section End-->
+            <!-- Introduction Section End  -->
         </main>
     </body>
 
